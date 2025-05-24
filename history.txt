@@ -1,4 +1,1 @@
 
-git rm history.txt
-git commit -m "Remove mistaken history.txt file"
-git push
