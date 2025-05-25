@@ -54,7 +54,7 @@ This is a simple console-based C++ project that allows users to:
 
 1. Clone or download the repository.
 2. Make sure the following files are in the same directory:
-   - `main.cpp`
+   - `MovieTicketReservation.cpp`
    - `movies.txt`
    - `reservations.txt`
    - `history.txt`
@@ -68,9 +68,9 @@ This is a simple console-based C++ project that allows users to:
 📁 Files
 
 - `MovieTicketReservation.cpp` – Complete source code of the program  
-- movies.txt – Stores movie data
-- reservations.txt – Stores reservation records
-- history.txt – Logs all admin and customer actions
+- 'movies.txt' – Stores movie data
+- 'reservations.txt' – Stores reservation records
+- 'history.txt' – Logs all admin and customer actions
 - `README.md` – This file  
 - `flowchart.png` – Flowchart image  
 
