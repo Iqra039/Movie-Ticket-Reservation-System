@@ -58,7 +58,7 @@ This is a simple console-based C++ project that allows users to:
    - `movies.txt`
    - `reservations.txt`
    - `history.txt`
-3. Open `MovieTicketReservation.cpp` in a C++ IDE like CodeBlocks or Dev-C++.
+3. Open `main.cpp` in a C++ IDE like CodeBlocks or Dev-C++.
 4. Compile and run the program.
 5. Choose user type: Admin or Customer.
 
