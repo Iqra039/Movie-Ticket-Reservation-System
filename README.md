@@ -11,23 +11,32 @@ This is a simple console-based C++ project that allows users to:
 
 🔧 Features
 
-✅ Add a new movie  
-✅ View all available movies  
-✅ Search movies (by name, genre, or showtime)  
-✅ Book tickets for any available movie  
-✅ View all reservations for a specific movie  
-✅ Delete movies (and all related reservations)  
-✅ Record user actions in a `history.txt` file using file handling  
-✅ Role-based interface (Admin vs Customer)
+- Add and delete movies (Admin only)
+- View movie list
+- Book tickets (Customer)
+- Search movies by name, genre, or time
+- View reservation history
+- All actions logged in a `history.txt` file
+- Uses file handling to store:
+  - Movie list (`movies.txt`)
+  - Reservations (`reservations.txt`)
+  - Action log (`history.txt`)
 
 ---
 
-📁 Files
 
-- `project.cpp` – Complete source code of the program  
-- `history.txt` – Tracks reservation & deletion history  
-- `README.md` – This file  
-- `flowchart.png` – Flowchart image  
+## 👤 User Roles
+
+### Admin
+- Password protected (`mrbean`)
+- Can add/delete movies
+- Can view reservations
+- Can view action history
+
+### Customer
+- Can view available movies
+- Can search movies
+- Can book tickets
 
 ---
 
@@ -41,9 +50,28 @@ This is a simple console-based C++ project that allows users to:
 ---
 
 
-## 📚 How to Run
+## 💻 How to Run
 
-1. Download or clone this repo
-2. Compile the file using any C++ compiler (Code::Blocks, Dev C++, Visual Studio, etc.)
-3. Run the executable in terminal or through your IDE
+1. Clone or download the repository.
+2. Make sure the following files are in the same directory:
+   - `main.cpp`
+   - `movies.txt`
+   - `reservations.txt`
+   - `history.txt`
+3. Open `main.cpp` in a C++ IDE like CodeBlocks or Dev-C++.
+4. Compile and run the program.
+5. Choose user type: Admin or Customer.
 
+---
+
+
+📁 Files
+
+- `MovieTicketReservation.cpp` – Complete source code of the program  
+- movies.txt – Stores movie data
+- reservations.txt – Stores reservation records
+- history.txt – Logs all admin and customer actions
+- `README.md` – This file  
+- `flowchart.png` – Flowchart image  
+
+---
